@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap");
+
+:root {
+  --cor-principal: #000000;
+  --cor-secundaria: #bd1cd8;
+  --cor-terciaria: #ffffff;
+  --cor-hover: #eb9af9;
+
+  --fonte-principal: "Krona One", sans-serif;
+  --fonte-secundaria: "Montserrat", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* height: 100vh; */
+  box-sizing: border-box;
+  background-color: var(--cor-terciaria);
+  color: var(--cor-principal);
+}
+
+.titulo-destaque {
+  color: var(--cor-secundaria);
+}
+
+.apresentacao {
+  padding: 5% 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 40px;
+}
+.apresentacao__conteudo {
+  width: 615px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+  font-size: 36px;
+  font-family: var(--fonte-principal);
+}
+
+.apresentacao__conteudo__paragrafo {
+  font-size: 24px;
+  font-family: var(--fonte-secundaria);
+}
+
+.apresentacao__links {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.apresentacao__links__subtitulo {
+  font-family: var(--fonte-principal);
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.apresentacao__links__instagram {
+  /* background-color: #BD1CD8; */
+  border: 2px solid var(--cor-secundaria);
+  width: 378px;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 21.5px 0;
+  text-decoration: none;
+  color: var(--cor-principal);
+  font-family: var(--fonte-secundaria);
+  justify-content: center;
+  gap: 16px;
+  display: flex;
+}
+
+.apresentacao__links__instagram:hover {
+  background-color: var(--cor-hover);
+}
+
+.logos {
+  width: 32px;
+}
+
+.rodape {
+  color: var(--cor-principal);
+  background-color: var(--cor-secundaria);
+  padding: 23.64px;
+  text-align: center;
+  font-family: var(--fonte-secundaria);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.cabeçalho {
+  padding: 2% 0% 0% 15%;
+}
+
+.cabeçalho__menu {
+  display: flex;
+  gap: 80px;
+}
+
+.cabeçalho__menu__link {
+  font-family: var(--fonte-secundaria);
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--cor-secundaria);
+  text-decoration: none;
+}
